@@ -16,11 +16,11 @@
 .image{
     display: flex;
     align-items: center;
-    margin-left: -11vw;
+    margin-left: -12vw;
 }
 .image img{
-        width: 18.5vw;
-        height: 23vw;
+        width: 18.82vw;
+        height: 24vw;
         margin: 10px;    
 }
 .popular button{
