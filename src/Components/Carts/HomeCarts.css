@@ -1,0 +1,55 @@
+.home-cart{
+    display: flex;
+    width: 70%;
+    height: 40vw;
+    margin-left: 13vw;
+    margin-top: 4vw;
+    align-items: center;
+    background-color: rgb(249, 240, 240);
+    
+}
+.left{
+    display:flexbox;
+    width: 50%;
+    height: 30vw;
+    
+}
+.left h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left p{
+    display: flex;
+    margin-top: 3vw;
+    font-size: large;
+    margin-left: 2vw;
+}
+.left .btn{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 3vw;
+ margin-top: 3vw;
+}
+.left input{
+    display: flex;
+    padding: .78vw;
+    font-size: larger;
+    border: none;
+}
+.left button{
+    display: flex;
+    padding: .78vw;
+    background-color: rgb(249, 31, 31);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+}
+.right img{
+    width: 35vw;
+}

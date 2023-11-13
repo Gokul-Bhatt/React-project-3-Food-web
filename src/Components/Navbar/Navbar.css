@@ -1,0 +1,57 @@
+.navbar{
+    display: flex;
+    height: 6vw;
+    align-items: center;
+    border-bottom: 2px solid rgb(61, 55, 55);
+    
+
+}
+.navbar h1{
+    font-size: xx-large;
+    margin-left: 1vw;
+    font-family: 'Brush Script MT', cursive;
+    color: red;
+    font-weight: 700;
+}
+.navbar input{
+    padding: 5px;
+    height: 20px;
+    border-right: none;
+    background-color: white;
+    border-radius: 15px 0 0px 15px;
+    font-size: large;
+    margin-top: 8px;
+}
+.navbar button{
+    border-left: none;
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    height: 33.5px;
+    margin-top: 7.8px;
+}
+.search-bar img{
+    display: flex;
+    width: 20px;
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-menu{
+    display: flex;
+    text-decoration: none;
+        
+}
+.search-bar{
+    margin-left: 9vw;
+}
+.nav-menu li{
+    display: flex;
+    margin: 2vw;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+}

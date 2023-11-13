@@ -1,0 +1,46 @@
+.popular{
+    display: flex;
+    width: 80%;
+    height: 45vw;
+    margin-top: 5vw;
+    margin-left: 12vw;
+    background-color: rgb(249, 240, 240);
+}
+.popular h1{
+        display: flex;
+        font-size: 3vw;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 1vw;
+}
+.image{
+    display: flex;
+    align-items: center;
+    margin-left: -11vw;
+}
+.image img{
+        width: 18.5vw;
+        height: 23vw;
+        margin: 10px;    
+}
+.popular button{
+    display: flex;
+    width: 13vw;
+    height: 4vw;
+    font-size: 2vw;
+    align-items: center;
+    margin-top: 37vw;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-left: -65vw;
+    background-color: rgb(255, 47, 47);
+    color: white;
+    border-radius: 8px;
+
+}
+.popular button img{
+    width: 4vw;
+    margin-left: 1vw;
+
+}
