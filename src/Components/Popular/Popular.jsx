@@ -10,7 +10,7 @@ const Popular = () => {
   return (
     <div className='popular'>
         <h1>Popular</h1>
-        <div className="image">
+        <div className="image-pop">
             <img src={img_pop1} alt="" />
             <img src={img_pop3} alt="" />
             <img src={img_pop4} alt="" />

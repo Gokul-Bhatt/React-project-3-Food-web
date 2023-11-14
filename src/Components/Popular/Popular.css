@@ -13,12 +13,12 @@
         font-family: 'Times New Roman', Times, serif;
         margin-left: 1vw;
 }
-.image{
+.image-pop{
     display: flex;
     align-items: center;
     margin-left: -12vw;
 }
-.image img{
+.image-pop img{
         width: 18.82vw;
         height: 24vw;
         margin: 10px;    

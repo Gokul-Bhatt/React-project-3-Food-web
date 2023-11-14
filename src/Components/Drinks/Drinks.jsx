@@ -3,7 +3,7 @@ import './Drinks.css'
 
 const Drinks = () => {
   return (
-    <div>
+    <div className='drinks'>
       <h1>this is drinks page</h1>
     </div>
   )

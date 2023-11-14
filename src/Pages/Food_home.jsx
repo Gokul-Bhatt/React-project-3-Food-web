@@ -4,7 +4,7 @@ import Popular from '../Components/Popular/Popular'
 
 const Food = () => {
   return (
-    <div className='food'>
+    <div className='food_home'>
       <HomeCart/>
       <Popular/>
     </div>
