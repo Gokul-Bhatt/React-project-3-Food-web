@@ -8,7 +8,10 @@ import Foods from './Components/Foods/Foods';
 import Drinks from './Components/Drinks/Drinks';
 import Dail_menu from './Components/Daily_menu/Dail_menu';
 import About from './Components/About/About';
+import Popular from './Components/Popular/Popular';
 import Pizza from './Inside/Pizza/Pizza';
+import Burgar from './Inside/Burgar/Burgar';
+
 const App = () => {
   return (
     <div>
@@ -21,8 +24,11 @@ const App = () => {
   <Route path='/Drinks' element={<Drinks/>}/>
   <Route path='/Daily_menu' element={<Dail_menu/>}/>
   <Route path='/About' element={<About/>}/>
-  <Route path='/img_food1' element={<Pizza/>}/>
+  <Route path='/Foods/Pizza' element={<Pizza/>}/>
+  <Route path='/Foods/Burgar' element={<Burgar/>}/>
+
   </Routes>
+  
   </BrowserRouter>
     
     </div>

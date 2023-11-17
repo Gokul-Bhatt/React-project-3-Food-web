@@ -8,22 +8,22 @@ import img_food5 from '../Assets/img_food5.avif'
 import img_food6 from '../Assets/img_food6.avif'
 import { Link } from 'react-router-dom'
 import Pizza from '../../Inside/Pizza/Pizza'
-
+import Popular from '../Popular/Popular'
 
 const Foods = () => {
   return (
     <div className='food'>
       <h1>Inspiration for your first order</h1>
       <div className="images">
-        <Link to="/Pizza"><img src={img_food1} alt="" /></Link>
-       <Link><img src={img_food2} alt="" /></Link> 
+        <Link to="Pizza"><img src={img_food1} alt="" /></Link>
+       <Link to="Burgar"><img src={img_food2} alt="" /></Link> 
        <Link><img src={img_food7} alt="" /></Link> 
         <Link><img src={img_food4} alt="" /></Link>
         <Link><img src={img_food5} alt="" /></Link>
        <Link><img src={img_food6} alt="" /></Link> 
       </div>
       <div className="name-dish">
-        <h3>Pizza</h3>
+        <h3> Pizza </h3>
         <h3>Burger</h3>
         <h3>Cake</h3>
         <h3>Role</h3>

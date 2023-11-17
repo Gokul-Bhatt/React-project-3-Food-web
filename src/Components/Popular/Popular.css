@@ -1,7 +1,7 @@
 .popular{
     display: flex;
     width: 80%;
-    height: 45vw;
+    height: 42vw;
     margin-top: 5vw;
     margin-left: 12vw;
     background-color: rgb(249, 240, 240);
@@ -20,14 +20,14 @@
 }
 .image-pop img{
         width: 18.82vw;
-        height: 24vw;
+        height: 20vw;
         margin: 10px;    
 }
 .popular button{
     display: flex;
-    width: 13vw;
-    height: 4vw;
-    font-size: 2vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.8vw;
     align-items: center;
     margin-top: 37vw;
     border: none;
@@ -40,7 +40,7 @@
 
 }
 .popular button img{
-    width: 4vw;
+    width: 2.5vw;
     margin-left: 1vw;
 
 }
