@@ -1,0 +1,17 @@
+.pizza{
+    display: flex;
+    width: 80vw;
+    background-color: red;
+    height: auto;
+    margin-left: 9vw;
+}
+.pizza .imge{
+    display: flex;
+
+    
+}
+.pizza .imge img{
+    width: 23vw;
+    height: 23vw;
+    margin: 10px;
+}
