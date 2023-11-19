@@ -1,17 +1,72 @@
 .pizza{
     display: flex;
     width: 80vw;
-    background-color: red;
     height: auto;
     margin-left: 9vw;
+    margin-top: 5vw;
 }
 .pizza .imge{
     display: flex;
-
-    
 }
 .pizza .imge img{
     width: 23vw;
     height: 23vw;
-    margin: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.pizza .imge .img1{
+     width: 25vw;
+     height: 28vw;
+     border-radius: 10px;
+
+}
+.pizza .imge .img1:hover{
+    background-color: whitesmoke;
+}
+.pizza .imge .img1 h2{
+    margin-left: 1vw;
+    margin-top: -5px;
+}
+.pizza .imge .img1 button{
+    display: flex;
+    margin-left: 17vw;
+    margin-top: -3vw;
+    width: 5vw;
+    height: 2vw;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+
+}
+.pizza .imge .img2{
+    width: 25vw;
+    height: 28vw;
+    border-radius: 10px;
+     margin: 1vw;
+     margin-top: -1px;
+}
+.pizza .imge .img2:hover{
+    background-color: whitesmoke;
+   
+}
+.pizza .imge .img2 h2{
+    margin-left: 1vw;
+    margin-top: -5px;
+}
+.pizza .imge .img3{
+    width: 25vw;
+    height: 28vw;
+    border-radius: 10px;
+     margin: 1vw;
+     margin-top: -1px;
+}
+.pizza .imge .img3:hover{
+    background-color: whitesmoke;
+    
+}
+.pizza .imge .img3 h2{
+    margin-left: 1vw;
+    margin-top: -5px;
 }

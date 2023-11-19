@@ -7,9 +7,21 @@ const Pizza = () => {
   return (
     <div className='pizza'>
       <div className="imge">
+        <div className="img1">
         <img src={img_pizza1} alt="" />
+        <h2>Hungry Oven</h2>
+        <button>BUY</button>
+        </div>
+        <div className="img2">
         <img src={img_pizza2} alt="" />
+        <h2>Tomato pizza</h2>
+        <button>BUY</button>
+        </div>
+        <div className="img3">
         <img src={img_pizza3} alt="" />
+        <h2>Mix pizza</h2>
+        <button>BUY</button>
+        </div>
         </div>
      
     </div>
